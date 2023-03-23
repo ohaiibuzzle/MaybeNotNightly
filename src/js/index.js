@@ -34,7 +34,7 @@ function checkAnswer() {
     answer = answer.toLowerCase().replace(/\s/g, "")
     window.quizAnswer = window.quizAnswer.map(a => a.toLowerCase().replace(/\s/g, ""))
 
-    console.log(answer, window.quizAnswer)
+    // console.log(answer, window.quizAnswer)
 
     if (window.quizAnswer.includes(answer)) {
         // Redirect to actual download
