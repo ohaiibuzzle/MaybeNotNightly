@@ -1,7 +1,6 @@
 [build]
-base = src/
-publish = src/
-command = echo "Do Nothing"
+    base = "src/"
+    command = "echo 'Do Nothing'"
 
 [build.processing.js]
     bundle = true
