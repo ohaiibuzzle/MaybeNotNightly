@@ -1,0 +1,8 @@
+#quizAnswerArea {
+    /* stretch child elements to fill the full width of the parent */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+}

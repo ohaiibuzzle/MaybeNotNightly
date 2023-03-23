@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta tags for Discord-->
+    <meta name="og:title" content="PlayCover Beta Download">
+    <meta name="og:description" content="Download the latest version of PlayCover Beta.">
+    <meta name="og:image" content="/img/logo.png">
+    <meta name="theme-color" content="#000000">
+
+    <script defer src="js/index.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>PlayCover Beta Download</title>
+</head>
+
+<body>
+    <div id="flex-container">
+        <div id="header">
+            <img src="img/logo.png" alt="PlayCover Logo" style="width: 100px; height: 100px;">
+            <h1>PlayCover Beta Download</h1>
+            <!-- <p>Download the latest version of PlayCover Beta from the link below.</p> -->
+        </div>
+
+        <div id="quiz">
+            <h1>Please answer the following question to proceed</h1>
+            <h4 id="quizContent"></h4>
+            <div id="quizAnswerArea">
+                <input type="text" id="quizAnswer" placeholder="Answer" style="width: 80%" onkeypress="if (event.keyCode == 13) checkAnswer()">
+                <button id="quizSubmit" onclick="checkAnswer()" style="width: 20%;">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
